@@ -8,8 +8,11 @@
 @texto-claro: #777;
 @dorado: #b4975a;	
 @gris-claro: #eaeaea;
+@azul-fb: #3b5998;
+@celeste-tw: #00acee;
+@mixto-ig: RGB(131,58,180);
 @rojo-yt: #c4302b;	
-@azul-fb: #3b5998;	
+
 
 
 /*Fuentes*/
@@ -713,7 +716,7 @@ footer{
 	.bottom-redes{
 		margin-top: 2.25rem;
 
-		a{
+		.fb{
 			padding: 0 0.5625rem;
 			color: @blanco;
 			-webkit-transition: all 0.3s ease;
@@ -721,7 +724,31 @@ footer{
 			transition: all 0.3s ease;
 
 			&:hover{
-				color: @dorado;
+				color: @azul-fb;
+			}
+		}
+
+		.tw{
+			padding: 0 0.5625rem;
+			color: @blanco;
+			-webkit-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+
+			&:hover{
+				color: @celeste-tw;
+			}
+		}
+
+		.ig{
+			padding: 0 0.5625rem;
+			color: @blanco;
+			-webkit-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+
+			&:hover{
+				color: @mixto-ig;
 			}
 		}
 	}
