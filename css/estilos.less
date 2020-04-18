@@ -7,7 +7,9 @@
 @texto-oscuro: #303133;
 @texto-claro: #777;
 @dorado: #b4975a;	
-@gris-claro: #eaeaea;	
+@gris-claro: #eaeaea;
+@rojo-yt: #c4302b;	
+@azul-fb: #3b5998;	
 
 
 /*Fuentes*/
@@ -137,6 +139,30 @@ header{
 					color: @dorado;
 				}
 			}
+
+			.fb{
+				padding: 0 0.5625rem;
+				color: @negro-custom;
+				-webkit-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+
+				&:hover{
+					color: @azul-fb;
+				}
+			}
+
+			.yt{
+				padding: 0 0.5625rem;
+				color: @negro-custom;
+				-webkit-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+
+				&:hover{
+					color: @rojo-yt;
+				}
+			}
 		}
 	}
 
@@ -190,6 +216,18 @@ header{
 
 					&:hover{
 						color: @dorado;
+					}
+				}
+
+				a .yt{
+					padding: 0 0.5625rem;
+					color: @negro-custom;
+					-webkit-transition: all 0.3s ease;
+					-o-transition: all 0.3s ease;
+					transition: all 0.3s ease;
+
+					&:hover{
+						color: @rojo-yt;
 					}
 				}
 			}
